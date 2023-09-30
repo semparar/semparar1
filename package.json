@@ -1,0 +1,41 @@
+{
+  "name": "semparar",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "pm2 start server.js index.mjs"
+  },
+  "engines": {
+    "node": "^16.14.2",
+    "npm": "^8.5.0"
+  },
+  "author": "EscDeck",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "pm2": "^5.3.0",
+    "puppeteer": "^21.3.1",
+    "qrcode": "^1.5.3",
+    "qrcode-pix": "^5.0.0",
+    "express-handlebars": "^5.3.2",
+    "helmet": "^4.6.0",
+    "node-html-parser": "^2.2.1",
+    "pino": "^7.10.0",
+    "pino-http": "^6.6.0",
+    "steplix-emv-qrcps": "0.0.8",
+    "string-strip-html": "^9.1.7",
+    "terser": ">=5.14.2"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "terser": ">=5.14.2",
+    "uvu": "^0.5.3",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
